@@ -1,0 +1,51 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+/* Temporary debug styles for chart containers */
+.chart-debug {
+  outline: 2px dashed rgba(79, 70, 229, 0.25);
+  background: #ffffff;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.rating-bubble .bubble {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-bubble .bubble-inner {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.95);
+}
+
